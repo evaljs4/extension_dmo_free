@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "dmo_free_81",
+  "version": "1.2.4",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.demononline.in.th/html/map/index.php",
+		"https://www.demononline.in.th/html/map/index.php"
+      ],
+      "js": [
+        "Map_81.js"
+      ]
+    }
+  ]
+}
